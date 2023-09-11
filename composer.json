@@ -1,5 +1,5 @@
 {
-    "name": "onlinecheckwriter/Quickpay",
+    "name": "onlinecheckwriter/quickpay",
     "description": "Simple Quick Payment API that support : check, mailcheck, eCheck, virtual card, wire",
 	"keywords": [
     "check",
