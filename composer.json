@@ -1,8 +1,27 @@
 {
     "name": "onlinecheckwriter/quickpay",
     "description": "Streamlined Payment API with Multi-Channel Support: Seamlessly Integrate Checks, eChecks, Virtual Cards, ACH/Direct Deposits, and Wire Transfers into Your Application.",
-    "version": "1.01",
-1    "keywords": ["onlinecheckwriter","online check writer","zilmoney","Check Printing","Check Mailing","check","echecks","echeck","e-check","mail check","virtual card","wire","ach","direct deposit api","ach api","direct deposit","fintech","virtual card api"
+    
+   "keywords": [
+"onlinecheckwriter",
+"online check writer",
+"zilmoney",
+"zil money",
+"Check Printing",
+"Check Mailing",
+"check",
+"echecks",
+"echeck",
+"e-check",
+"mail check",
+"virtual card",
+"wire",
+"ach",
+"direct deposit api",
+"ach api",
+"direct deposit",
+"fintech",
+"virtual card api"
   ],
     "type": "library",
     "license": "MIT",
