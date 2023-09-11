@@ -1,0 +1,25 @@
+{
+    "name": "onlinecheckwriter/Quickpay",
+    "description": "Simple Quick Payment API that support : check, mailcheck, eCheck, virtual card, wire",
+	"keywords": [
+    "check",
+    "echecks",
+    "mail check",
+    "virtual card",
+    "wire",
+    "ach",
+    "direct deposit"
+  ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Online Check Writer",
+            "email": "support@onlinecheckwriter.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"onlinecheckwriter\\Quickpay\\": "src/"}
+    },
+    "require": {}
+}
