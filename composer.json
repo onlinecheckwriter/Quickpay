@@ -1,6 +1,6 @@
 {
     "name": "onlinecheckwriter/quickpay",
-    "description": "Simple Quick Payment API that support : check, mailcheck, eCheck, virtual card, wire",
+    "description": "Simple Quick Payment API that support : check, mailcheck, eCheck, virtual card, ach/direct deposit, wire",
     "keywords": [
     "onlinecheckwriter",
     "online check writer",
@@ -13,6 +13,8 @@
     "virtual card",
     "wire",
     "ach",
+    "direct deposit api"
+    "ach api" 	     
     "direct deposit"
   ],
     "type": "library",
