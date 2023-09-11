@@ -1,10 +1,12 @@
 {
     "name": "onlinecheckwriter/quickpay",
-    "description": "Simple Quick Payment API that support: check, mail check, eCheck, virtual card, ach/direct deposit, wire",
-	"keywords": [
+    "description": "Simple Quick Payment API that support : check, mailcheck, eCheck, virtual card, wire",
+    "keywords": [
     "onlinecheckwriter",
-		"zilmoney",
-		"Check Printing",
+    "online check writer",
+    "zilmoney",
+    "Check Printing",
+    "Check Mailing",	    
     "check",
     "echecks",
     "mail check",
@@ -12,7 +14,6 @@
     "wire",
     "ach",
     "direct deposit"
-		
   ],
     "type": "library",
     "license": "MIT",
@@ -22,8 +23,17 @@
             "email": "support@onlinecheckwriter.com"
         }
     ],
+	
+	
     "autoload": {
         "psr-4": {"onlinecheckwriter\\Quickpay\\": "src/"}
     },
-    "require": {}
+    "require": {
+        "php": "^7.3 || ^8.1",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^7.3",
+        "guzzlehttp/psr7": "^2.0"
+    },
 }
