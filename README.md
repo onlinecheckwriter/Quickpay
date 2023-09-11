@@ -35,7 +35,7 @@ The recommended way to install onlinecheckwriter.com PHP Client is through [Comp
 curl -sS https://getcomposer.org/installer | php
 
 // Add onlinecheckwriter.com PHP client as a dependency
-composer require onlinecheckwriter/Quickpay
+composer require onlinecheckwriter/quickpay
 ```
 
 After installing, you need to require Composer's autoloader:
@@ -61,7 +61,7 @@ $ocw->setEnviorment("SANDBOX");
 // setToken
 // setEnviorment : LIVE   
 
-use onlinecheckwriter\MailCheck\Index;
+use onlinecheckwriter\Quickpay\Index;
 
 $ocw = (new Index());
 $ocw->setToken("YOUR API TOKEN")
