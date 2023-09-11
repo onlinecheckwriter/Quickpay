@@ -72,20 +72,7 @@ class Index
 
     }
 
-    public function getBankAccountId($data)
-    {
-        return $this->sentRequest("/bankaccount/getid", $data);
-    }
-
-    public function createPayee($data)
-    {
-        return $this->sentRequest("/payee/create", $data);
-    }
-
-    public function createCheck($data)
-    {
-        return $this->sentRequest("/check/create", $data);
-    }
+  
 
     public function sentMail($data)
     {
