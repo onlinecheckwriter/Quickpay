@@ -6,7 +6,7 @@ class Index
 {
     public $token;
     public $base_url;
-    const SANDBOX_BASE_URL = 'https://sandbox.onlinecheckwriter.com/api/v3';
+    const SANDBOX_BASE_URL = 'https://test.onlinecheckwriter.com/api/v3';
     const LIVE_BASE_URL = 'https://app.onlinecheckwriter.com/api/v3';
 
     public function __construct($token = "")
